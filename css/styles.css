@@ -141,6 +141,9 @@ body {
 
 
 }
+.cont-list{
+
+}
 
 .header-hp {
     display: flex;
@@ -205,7 +208,7 @@ a.logo {
 
 }
 
-.navigation2 {
+.navigation-link {
     display: flex;
     justify-content: flex-end;
 }
@@ -224,9 +227,9 @@ a.logo {
     color: #757575;
 }
 
-.nav :focus,
-.nav :hover,
-a.nav {
+.navigation-footer :focus,
+.navigation-footer :hover,
+a.navigation-footer {
     color: #2196F3;
 
 }
@@ -235,13 +238,6 @@ a.nav {
     list-style: none;
     text-decoration: none;
 }
-
-.wrapper {
-    display: flex;
-    justify-content: space-around;
-
-}
-
 .block {
     display: flex;
 }
@@ -259,14 +255,10 @@ a.nav {
 
 
 /*  */
-.wrapper2 {
+
+.container {
     display: flex;
     justify-content: space-around;
-
-}
-
-.div-wraper {
-    justify-content: space-between;
 
 }
 
@@ -283,7 +275,7 @@ a.nav {
     margin: -1px;
 }
 
-.section-hh {
+.title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -291,9 +283,16 @@ a.nav {
     letter-spacing: 0.03em;
     color: #212121;
 }
+.title-caption{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
-.div3 {
-    margin-right: 30px;
+.item{
+     margin-right: 30px;
 }
 
 .section-hhh {
@@ -306,30 +305,23 @@ a.nav {
     color: #212121;
 }
 
-.div4 {
-    margin-right: 30px;
-}
-
-.pp {
+.text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.89;
     letter-spacing: 0.03em;
     color: #757575;
 
 }
 
-.p {
-
-
+.text-desc{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
-
-.dec-ww {
+.address-link{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -338,7 +330,7 @@ a.nav {
     color: #FFFFFF;
 }
 
-.dec-add {
+.address-footer{
     font-weight: 400;
     font-size: 14px;
     font-style: normal;
@@ -358,23 +350,6 @@ a.nav {
     letter-spacing: 0.03em;
 
     color: #212121;
-}
-
-.p .people {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-}
-
-.pp {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    /* identical to box height, or 188% */
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
 }
 
 .portfolio-semple {
