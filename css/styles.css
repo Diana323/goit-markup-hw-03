@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .main{
-    width: 1230px;
+    
    
     margin-left: auto;
     margin-right: auto;
@@ -261,7 +261,7 @@ a.logo {
     margin-right: 0px;
 }
 .page-title-footer {
-    width: 1200px;
+    
     height: 192px;
     background-color: #2F303A;
     letter-spacing: 0.06em;
@@ -270,7 +270,7 @@ a.logo {
     font-size: 26px;
     line-height: 1.19;
 
-    padding-left: 215px;
+    padding-left: 115px;
     padding-top: 60px;
     
     margin-left: auto;
@@ -280,7 +280,9 @@ a.logo {
     padding-left: 0px;
     padding-top: 0px;
 }
-
+.footer-link{
+    width: 1200px;
+}
 .footer-logo {
     padding-bottom: 20px;
 
@@ -397,14 +399,14 @@ padding-right: 15px;
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1200px;
+   
     margin-left: auto;
     margin-right: auto;
 }
 .section-block{
     
         padding-top: 94px;
-        width: 1200px;
+    
         margin-left: auto;
         margin-right: auto;
 }
