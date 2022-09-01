@@ -337,12 +337,16 @@ a.navigation-footer {
 
 .test-flex-container{ 
 padding-bottom: 94px;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
 }
 /*  */
 
 .flex-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .flex-element{
     width: 370px;
