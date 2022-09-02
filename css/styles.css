@@ -35,12 +35,10 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .section-main {
    
-height: 540px;
+    height: 600px;
     text-transform: uppercase;
-    
     text-align: center;
      
-    
     background: #2F303A;
     letter-spacing: 0.06em;
 }
@@ -53,11 +51,11 @@ height: 540px;
     line-height: 1.36;
     
     padding-top: 200px;
-   margin: auto;
+    margin: auto;
     padding-bottom: 30px;
     letter-spacing: 0.06em;
 
-width: 696px;
+    width: 695px;
   
     color: #FFFFFF;
 }
@@ -138,7 +136,7 @@ width: 696px;
 }
 .btn:last-child{
     padding-top: 0px;
-        padding-bottom: 0px;
+    padding-bottom: 0px;
 }
 .bt {
     font-weight: 500;
@@ -178,9 +176,9 @@ width: 696px;
 }
 .page-header {
     width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        border-bottom: 1px solid #ECECEC;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ECECEC;
         
 }
 
@@ -230,7 +228,7 @@ a.logo {
 
 .navigation-link {
     display: flex;
-   margin-left: auto;
+    margin-left: auto;
     align-items: center;
 }
 .navigation-link .item +.item {
@@ -283,8 +281,6 @@ a.logo {
     width: 1200px;
     padding-left: 25px;
 }
-
-
 
 .footer-logo {
     padding-bottom: 20px;
@@ -346,10 +342,10 @@ a.navigation-footer {
 }
 
 .test-flex-container{ 
-padding-bottom: 94px;
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
+    padding-bottom: 94px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*  */
 
@@ -360,8 +356,8 @@ padding-right: 15px;
 }
 .flex-element{
     width: 370px;
-     margin-right: 30px;
-     margin-bottom: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .flex-element:nth-child(3n){
     margin-right: 0px;
@@ -406,10 +402,10 @@ padding-right: 15px;
 }
 .footer-section{
     padding-top: 60px;
-        padding-bottom: 60px;
-    
-        margin-left: auto;
-        margin-right: auto;
+    padding-bottom: 60px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section{
@@ -421,10 +417,10 @@ padding-right: 15px;
 }
 .section-block{
     
-        padding-top: 94px;
+    padding-top: 94px;
     
-        margin-left: auto;
-        margin-right: auto;
+    margin-left: auto;
+     margin-right: auto;
 }
 .section-color{
     background-color: #F5F5F5;
@@ -436,7 +432,7 @@ padding-right: 15px;
 }
 
 .section-item{
-     margin-right: 30px;
+    margin-right: 30px;
 }
 .section-item:last-child{
     margin-right: 0px;
@@ -513,8 +509,6 @@ padding-right: 15px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
-    /* identical to box height, or 200% */
-
     letter-spacing: 0.06em;
 
     color: #212121;
