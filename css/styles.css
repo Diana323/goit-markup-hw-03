@@ -142,17 +142,14 @@ width: 696px;
 }
 .bt {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+    
     width: 112px;
     height: 38px;
     left: 726px;
     top: 174px;
     background-color: #F5F4FA;
-    font-family: 'Roboto' sans-serif;
-    font-weight: 500;
+   
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.16;
     /* identical to box height, or 162% */
@@ -286,11 +283,9 @@ a.logo {
 }
 .footer-wrap{
     width: 1200px;
+    padding-left: 25px;
 }
-.page-title-footer:last-child{
-    padding-left: 0px;
-    padding-top: 0px;
-}
+
 
 
 .footer-logo {
@@ -497,13 +492,12 @@ padding-right: 15px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     padding-bottom: 20px;
+
     letter-spacing: 0.03em;
 
     color: #757575;
 }
-.subtitle:last-child{
-    padding-bottom: 0;
-}
+
 .portfolio-semple {
     font-weight: 700;
     font-size: 18px;
