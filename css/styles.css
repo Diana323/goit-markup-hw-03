@@ -38,25 +38,29 @@ h1,h2,h3,h4,h5,h6,p,ul {
 height: 540px;
     text-transform: uppercase;
     
-    margin-left: 0px;
-    margin-top: 0px;
     text-align: center;
-    
+
     background: #2F303A;
     letter-spacing: 0.06em;
 }
 
+
 .hero {
-   text-align: center;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     
     padding-top: 200px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 452px;
+    padding-right: 452px;;
     padding-bottom: 30px;
     letter-spacing: 0.06em;
+
+
+    height: 120px;
+    left: 452px;
+    top: 280px;
     color: #FFFFFF;
 }
 
@@ -102,7 +106,8 @@ height: 540px;
     width: 216px;
     height: 50px;
     left: 692px;
-
+    padding-left: 32px;
+    padding-top: 10px; ;
 
     font-size: 16px;
     font-weight: 700;
@@ -113,6 +118,11 @@ height: 540px;
     font-style: normal;
     background: #2196F3;
     color: var(--color-milk-)
+}
+.button-logo:last-child{
+    padding-left: 0px;
+        padding-top: 0px;
+        
 }
 .button-logo:hover,
 .button-logo:focus{
@@ -270,7 +280,7 @@ a.logo {
     font-size: 26px;
     line-height: 1.19;
 
-    padding-left: 115px;
+    padding-left: 215px;
     padding-top: 60px;
     
     margin-left: auto;
@@ -443,6 +453,7 @@ padding-right: 15px;
     letter-spacing: 0.03em;
     color: #757575;
 
+    padding-bottom: 30px;
 }
 
 .text-desc{
@@ -461,10 +472,10 @@ padding-right: 15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-
+    
+    padding-top: 30px;
+    padding-bottom: 10px;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 
