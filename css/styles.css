@@ -115,7 +115,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
     letter-spacing: 0.06em;
 
     font-family: inherit;
-    font-style: normal;
     background: #2196F3;
     color: var(--color-milk-)
 }
@@ -138,6 +137,7 @@ color: var(--color-milk-)
 .btn{
     padding-top: 94px;
     padding-bottom: 50px;
+   
 }
 .btn:last-child{
     padding-top: 0px;
@@ -167,6 +167,7 @@ color: var(--color-milk-)
 }
 .cont-list{
      width: 270px;
+     margin-right: 30px;
 }
 .cont-list:last-child{
      margin-right: 0;
@@ -343,6 +344,7 @@ a.navigation-footer {
 .block {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -401,9 +403,7 @@ a.navigation-footer {
 }
 .container {
     width: 1200px;
-    display: flex;
-    justify-content: space-around;
-
+   
 }
 .footer-section{
     padding-top: 60px;
@@ -433,7 +433,12 @@ a.navigation-footer {
 .section-team{
     display: flex;
     justify-content: center;
-    
+
+}
+ .box{ 
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .section-item{
