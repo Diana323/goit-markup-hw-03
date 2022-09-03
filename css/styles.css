@@ -122,7 +122,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 .button-logo:hover,
 .button-logo:focus{
-
+background: #188CE8;
+color: var(--color-milk-)
 }
 .section-btn{
     width: 1200px;
