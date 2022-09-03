@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     margin-top: 30px;
     padding-left: 32px;
     padding-top: 10px; ;
-
+    cursor: pointer;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
@@ -147,7 +147,7 @@ color: var(--color-milk-)
 }
 .bt {
     font-weight: 500;
-    
+    cursor: pointer;
     width: 112px;
     height: 38px;
     left: 726px;
@@ -443,14 +443,27 @@ a.navigation-footer {
     justify-content: center;
 
 }
+.wrapper{
+
+}
  .box{ 
     display: flex;
     justify-content: space-around;
 
 }
-
+.photo{
+    margin-right: 30px;
+}
+.photo:last-child{
+    margin-right: 0px;
+}
 .section-item{
     margin-right: 30px;
+    background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
 }
 .section-item:last-child{
     margin-right: 0px;
@@ -472,7 +485,7 @@ a.navigation-footer {
     line-height: 1.89;
     letter-spacing: 0.03em;
     color: #757575;
-
+text-align: center;
     padding-bottom: 30px;
 }
 
@@ -493,6 +506,7 @@ a.navigation-footer {
     font-size: 16px;
     line-height: 1.18;
     
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
     letter-spacing: 0.03em;
