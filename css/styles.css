@@ -260,7 +260,6 @@ a.logo {
     margin-left: 50px;
 }
 
-*/
  
 
 
@@ -355,7 +354,7 @@ a.navigation-footer {
 .block {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 30px;
 
 }
 
