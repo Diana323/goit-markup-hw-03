@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-transform: uppercase;
     text-align: center;
     
+    background-image: url(hero.jpg);
     background: #2F303A;
     letter-spacing: 0.06em;
     padding-top: 200px;
@@ -359,16 +360,18 @@ a.navigation-footer {
 }
 
 /*  */
-.flex-element{
-    flex-basis: 370px;
 
-}
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
      
+}
+
+.flex-element {
+    flex-basis: 370px;
+
 }
 
 .flex-element:hover,
