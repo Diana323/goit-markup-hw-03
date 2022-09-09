@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-transform: uppercase;
     text-align: center;
     
-    background-image: url(hero.jpg);
+    background-image: url();
     background: #2F303A;
     letter-spacing: 0.06em;
     padding-top: 200px;
@@ -364,14 +364,17 @@ a.navigation-footer {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    flex-basis: calc((100%-60px)/3);
     gap: 30px;
-     
+}
+.flex-element:last-child{
+    margin-right: 0px;
+
 }
 
 .flex-element {
     flex-basis: 370px;
-
 }
 
 .flex-element:hover,
@@ -521,6 +524,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     padding-top: 20px;
     padding-bottom: 4px;
     padding-left: 24px;
+    padding-right: 24px;
     color: var(--main-color);
 }
 
@@ -531,6 +535,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     /* identical to box height, or 188% */
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     letter-spacing: 0.03em;
     color: #757575;
 }
